@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(240, 240, 240);
+}
+.one-one{
+width: 100%;
+
+display: flex;
+justify-content: center;
+text-align: center;
+}
+.container-in{
+    border: 1px solid black;
+    height: 40vh;
+    width: 30%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   border-radius: 10px;
+   background-color:light gray ;
+
+}
+
+.one-one input[type="username"]{
+border: 1px solid black;
+border-radius: 5px;
+padding-left: 10px;
+height: 30px;
+width: 80%;
+
+}
+.two-two input[type="password"]{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    height: 30px;
+    width: 80%;
+}
+.two-two{
+    width: 100%;
+ display: flex;
+justify-content: center;
+text-align: center;
+}
+.three-three{
+    display: flex;
+    width: 80%;
+    justify-content: flex-start;
+    
+}
+.four-four button{
+ height: 30px;
+ border: none;
+ border-radius: 10px;
+ color: white;
+ background-color: blue;
+ width: 80%;
+ 
+}
+
+.four-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+    
+}
+.five-five{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+.five-five button{
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+    width: 80%;
+}
+.five-five a{
+    color: white;
+    text-decoration: none;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(240, 240, 240);
+}
+.home-in{
+    border: 1px solid black;
+    height: 80vh;
+    width: 30%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   gap: 10px;
+   border-radius: 10px;
+   background-color:light gray ;
+
+}
+.username{
+    width: 100%;
+
+display: flex;
+justify-content: center;
+}
+.username input[type="username"]{
+
+border: 1px solid black;
+border-radius: 5px;
+padding-left: 10px;
+height: 30px;
+width: 80%;
+}
+.about{
+    width: 100%;
+ display: flex;
+justify-content: center;
+text-align: center;  
+}
+.about input[type="mail-id"]{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    height: 30px;
+    width: 80%;
+}
+.contact{
+    width: 100%;
+ display: flex;
+justify-content: center;
+
+}
+.contact input[type="password"]{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    height: 30px;
+    width: 80%;
+}
+.more   {
+    
+        width: 100%;
+     display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.more input[type="password"]{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    height: 30px;
+    width: 80%;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    height:10vh;
+    width:100%;
+}
+.courses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+.courses button{
+    height: 30px;
+ border: none;
+ border-radius: 10px;
+ color: white;
+ background-color: blue;
+ width: 80%;
+ 
+}
+.help{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+.help button{
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+    width: 80%;
+
+}
+.help a{
+    text-decoration: none;
+    color: white;
+}
+
+
